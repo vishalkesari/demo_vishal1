@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background */
+}
+
+/* --- Header Section Styling --- */
+.header-container {
+    border: 1px solid blue;
+    margin-bottom: 5px;
+}
+
+.header-title {
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid blue;
+}
+
+.header-details {
+    display: flex; /* Aligns image and details box horizontally */
+    background-color: white;
+}
+
+.profile-image {
+    width: 60px; /* Adjust size */
+    height: 70px;
+    background-color: white;
+    border-right: 1px solid blue;
+    /* Styles for the avatar area */
+}
+
+.details-box {
+    flex-grow: 1;
+    background-color: #6a0dad; /* Purple background */
+    color: white;
+    padding: 10px;
+    display: flex; /* Aligns 'Details' and 'Moses Joshua' */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* --- Main Content Styling --- */
+.main-content {
+    border: 1px solid blue;
+    margin-bottom: 5px;
+}
+
+.page-header {
+    background-color: #add8e6; /* Light blue/teal background */
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid blue;
+}
+
+.content-area {
+    display: flex;
+    background-color: white;
+}
+
+/* Sidebar (Navigation) */
+.sidebar {
+    width: 25%; /* Adjust width for the navigation column */
+    border-right: 1px solid blue;
+    padding: 10px 0;
+}
+
+.nav-item {
+    display: block; /* Makes links take up the whole width */
+    color: blue; /* Blue link text */
+    text-decoration: underline; /* Underlined links */
+    padding: 5px 10px;
+}
+
+/* Main Text Area */
+.main-text {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* --- Footer Styling --- */
+.footer {
+    background-color: #6a0dad; /* Purple background */
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid blue;
+}
